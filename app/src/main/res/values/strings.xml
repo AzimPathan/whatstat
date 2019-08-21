@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WhatsStat</string>
+    <string name="copyright">This app is developed by Azim Pathan</string>
+    <string name="my_status_title">My Status</string>
+    <string name="add_status">tap to add status update</string>
+    <string name="recent_updates">Recent Updates</string>
+    <string name="list_user_name">User Name</string>
+    <string name="email_hint">Enter Email ID</string>
+    <string name="passsword_hint">Enter Password</string>
+    <string name="login_button_text">Log In</string>
+    <string name="join_button_text">Join WhatsStat</string>
+    <string name="tag">Welcome to WhatsStat</string>
+    <string name="add_text_status">Type something</string>
+    <string name="signup_button_text">Sign Up</string>
+    <string name="signup_name">Enter name</string>
+    <string name="signup_email">Enter Email ID</string>
+    <string name="signup_password">Enter Password</string>
+
+    <string-array name="bg_colors">
+        <item>#fff17a0a</item>
+        <item>#ff3f51B5</item>
+        <item>#ff3B8d95</item>
+        <item>#ff00ddff</item>
+        <item>#ff0099cc</item>
+        <item>#ff33b5e5</item>
+        <item>#ff669900</item>
+        <item>#ff99cc00</item>
+        <item>#ffff8800</item>
+        <item>#ffffbb33</item>
+        <item>#ffaa66cc</item>
+        <item>#ffcc0000</item>
+        <item>#ffff4444</item>
+    </string-array>
+
+    <string-array name="my_fonts">
+        <item>agency_regular.TTF</item>
+        <item>amatic_sc_regular.ttf</item>
+        <item>century_schoolbook.TTF</item>
+        <item>chiller.TTF</item>
+        <item>digiface.ttf</item>
+        <item>dancing_script_regular.otf</item>
+        <item>forte.TTF</item>
+        <item>grand_hotel_regular.otf</item>
+        <item>great_vibes_regular.otf</item>
+        <item>harry_potter.TTF</item>
+        <item>kaushan_script_regular.otf</item>
+        <item>lucida_calligraphy.TTF</item>
+        <item>lucida_fax.TTF</item>
+        <item>magneto.TTF</item>
+        <item>monotype_corsiva.TTF</item>
+        <item>ostrich_regular.ttf</item>
+        <item>segoe_marker.ttf</item>
+        <item>sofia_regular.otf</item>
+        <item>typo_comics_demo.otf</item>
+        <item>ubuntu_mono_regular.ttf</item>
+    </string-array>
+
+
+    <string name="tab_chats">Chats</string>
+    <string name="tab_friendates">Friendates</string>
+    <string name="title_activity_main2">TabbedActivity</string>
+    <string name="action_settings">Developer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

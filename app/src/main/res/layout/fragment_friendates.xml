@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.azimpathan.whatsstat.MainActivity">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivMyPic"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@android:string/ok"
+            android:src="@mipmap/ic_account_circle_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/tvMyStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/ivMyPic"
+            android:layout_toRightOf="@+id/ivMyPic"
+            android:text="@string/my_status_title"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvAddStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMyStatus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/ivMyPic"
+            android:layout_toRightOf="@+id/ivMyPic"
+            android:text="@string/add_status"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvRecentUpdates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ivMyPic"
+            android:layout_alignStart="@+id/ivMyPic"
+            android:layout_below="@+id/ivMyPic"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/recent_updates" />
+
+        <ListView
+            android:id="@+id/listViewUpdates"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvRecentUpdates"
+            android:layout_marginTop="12dp"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/listViewUpdates"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="4dp"
+            android:src="@mipmap/ic_add_a_photo_white_24dp"
+            app:srcCompat="@color/colorAccent" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fabImage"
+            android:layout_alignLeft="@+id/fabImage"
+            android:layout_alignStart="@+id/fabImage"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:src="@mipmap/ic_text_format_white_24dp" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

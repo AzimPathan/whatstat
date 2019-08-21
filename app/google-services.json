@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "245629101956",
+    "firebase_url": "https://whatsstat.firebaseio.com",
+    "project_id": "whatsstat",
+    "storage_bucket": "whatsstat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245629101956:android:ffca3fa34fb861b3",
+        "android_client_info": {
+          "package_name": "com.azimpathan.whatsstat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245629101956-33m25r0768n0tavv8mpqc56t2ssp0e2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.azimpathan.whatsstat",
+            "certificate_hash": "8ab1b018e26e7daef4ec6df7e570039ae359d437"
+          }
+        },
+        {
+          "client_id": "245629101956-tm9ekbkt668o226k166o5bs16di0tfar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_EEuMINRK-2TS4GpGqJ92LmZIfDyQ6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245629101956-tm9ekbkt668o226k166o5bs16di0tfar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
